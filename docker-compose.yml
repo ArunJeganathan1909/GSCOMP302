@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  helloapp:
+    build: .
+    container_name: hello-container
+    image: jeganathanarun1105/gscomp302
+    command: ["java", "HelloWorld"]
